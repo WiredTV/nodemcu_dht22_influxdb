@@ -46,7 +46,7 @@ Deep Sleep is a great way to conserve your battery power. It almost stops all ac
 So the point is to start up the microcontroller, read the values of the sensor, send them to InfluxDB via Wifi and shut itself down for 15 minutes, rince and repeat.
 
 ** One thing: You need to connect d0 to RST after you have uploaded the code in the microcontroller, if you connect d0 before uploading the code, the upload will fail**
-** 2023-12-13 - Battery life update, still running strong with 4 weeks into operations
+** 2023-12-13 - Battery life update, still running strong with 4 weeks into operations. This includes a Thermometer outside with subzero temperatures.
 
 
 ![image](./assets/deepsleep.jpg)
